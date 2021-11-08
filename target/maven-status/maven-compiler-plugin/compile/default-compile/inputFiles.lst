@@ -1,0 +1,8 @@
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/domain/Category.java
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/domain/Difficulty.java
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/domain/UnitOfMeasure.java
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/controllers/IndexController.java
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/RecipesApplication.java
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/domain/Recipe.java
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/domain/Notes.java
+/home/robot/IdeaProjects/recipes/src/main/java/com/example/recipes/domain/Ingredient.java
