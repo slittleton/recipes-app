@@ -1,8 +1,11 @@
-com/example/recipes/domain/Category.class
 com/example/recipes/RecipesApplication.class
+com/example/recipes/domain/Recipe.class
+com/example/recipes/controllers/IndexController.class
+com/example/recipes/domain/Category.class
+com/example/recipes/repositories/CategoryRepository.class
+com/example/recipes/repositories/RecipeRepository.class
+com/example/recipes/repositories/UnitOfMeasureRepository.class
 com/example/recipes/domain/UnitOfMeasure.class
 com/example/recipes/domain/Difficulty.class
 com/example/recipes/domain/Notes.class
-com/example/recipes/domain/Recipe.class
 com/example/recipes/domain/Ingredient.class
-com/example/recipes/controllers/IndexController.class

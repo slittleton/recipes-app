@@ -5,6 +5,7 @@ import java.util.Set;
 
 @Entity
 public class Category {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -14,7 +15,9 @@ public class Category {
     private Set<Recipe> recipes;
 
 
-    // === Getters and Setters ===
+
+
+
     public Long getId() {
         return id;
     }
