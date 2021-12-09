@@ -1,0 +1,6 @@
+com/example/recipes/controllers/IndexControllerTest.class
+com/example/recipes/RecipesApplicationTests.class
+com/example/recipes/repositories/UnitOfMeasureRepositoryTestIT.class
+com/example/recipes/domain/CategoryTest.class
+com/example/recipes/services/RecipeServiceImplTest.class
+com/example/recipes/controllers/RecipeControllerTest.class

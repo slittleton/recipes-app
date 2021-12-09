@@ -1,7 +1,7 @@
 package com.example.recipes.controllers;
 
 import com.example.recipes.commands.RecipeCommand;
-import com.example.recipes.exceptions.BadRequestException;
+
 import com.example.recipes.exceptions.NotFoundException;
 import com.example.recipes.services.RecipeService;
 import lombok.extern.slf4j.Slf4j;
@@ -42,7 +42,7 @@ public class RecipeController {
     }
 
     @PostMapping("recipe")
-    public String saveOrUpdate(@ModelAttribute RecipeCommand command){
+    public String saveOrUpdate(@ModelAttribute("recipe") RecipeCommand command){
         RecipeCommand savedCommand = recipeService.saveRecipeCommand(command);
 
         return "redirect:/recipe/" + savedCommand.getId() + "/show";
@@ -71,17 +71,5 @@ public class RecipeController {
         return modelAndView;
     }
 
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(BadRequestException.class)
-    public ModelAndView badRequest(Exception exception){
 
-        log.error("Handling not found exception");
-        log.error(exception.getMessage());
-        ModelAndView modelAndView = new ModelAndView();
-
-        modelAndView.setViewName("400error");
-        modelAndView.addObject("exception", exception);
-
-        return modelAndView;
-    }
 }
